@@ -100,23 +100,23 @@ Future<String> _fetchLatestNpmVersion() async {
 
 Future<String> _getCurrentVersionFromGitTags(String projectRoot) async {
   // Get all tags matching v*, sort by version, pick the last one
-  final result = await Process.run(
-    'git',
-    ['tag', '--list', 'v*', '--sort=version:refname'],
-    workingDirectory: projectRoot,
-  );
+  final result = await Process.run('git', [
+    'tag',
+    '--list',
+    'v*',
+    '--sort=version:refname',
+  ], workingDirectory: projectRoot);
 
   if (result.exitCode != 0) {
     print('Warning: git tag failed, assuming no previous version.');
     return '0.0.0';
   }
 
-  final tags =
-      (result.stdout as String)
-          .trim()
-          .split('\n')
-          .where((t) => t.isNotEmpty)
-          .toList();
+  final tags = (result.stdout as String)
+      .trim()
+      .split('\n')
+      .where((t) => t.isNotEmpty)
+      .toList();
 
   if (tags.isEmpty) {
     print('No git tags found, assuming first release.');
@@ -133,7 +133,7 @@ Future<String> _getCurrentVersionFromGitTags(String projectRoot) async {
 // Asset download
 // ---------------------------------------------------------------------------
 
-const _unpkgBase = 'https://unpkg.com/@tabler/icons-webfont';
+const _unpkgBase = 'https://cdn.jsdelivr.net/npm/@tabler/icons-webfont';
 
 final _filesToDownload = <String, String>{
   'dist/tabler-icons.css': 'assets/css/tabler-icons.css',
@@ -161,7 +161,9 @@ Future<void> _downloadAssets(String version, String projectRoot) async {
             // Drain the response body to free the connection
             await response.drain<void>();
             if (attempt < maxRetries) {
-              print('  HTTP ${response.statusCode}, retrying ($attempt/$maxRetries)...');
+              print(
+                '  HTTP ${response.statusCode}, retrying ($attempt/$maxRetries)...',
+              );
               await Future<void>.delayed(Duration(seconds: 2 * attempt));
               continue;
             }
@@ -290,11 +292,10 @@ void _updateChangelog(
 
 Future<void> _runGenerateIcons(String projectRoot) async {
   print('Running generate_icons.dart ...');
-  final result = await Process.run(
-    'dart',
-    ['run', 'tool/generate_icons.dart'],
-    workingDirectory: projectRoot,
-  );
+  final result = await Process.run('dart', [
+    'run',
+    'tool/generate_icons.dart',
+  ], workingDirectory: projectRoot);
 
   stdout.write(result.stdout);
   stderr.write(result.stderr);
