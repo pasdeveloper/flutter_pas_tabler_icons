@@ -31,7 +31,7 @@ void main() async {
 
   print('New version available: $currentVersion -> $latestVersion');
 
-  // 4. Download assets from unpkg
+  // 4. Download assets from jsdelivr
   await _downloadAssets(latestVersion, projectRoot);
 
   // 5. Update pubspec.yaml
@@ -45,6 +45,9 @@ void main() async {
 
   // 8. Run generate_icons.dart
   await _runGenerateIcons(projectRoot);
+
+  // 9. Update README.md placeholders
+  _updateReadme(latestVersion, projectRoot);
 
   print('updated=true');
   print('version=$latestVersion');
@@ -305,4 +308,38 @@ Future<void> _runGenerateIcons(String projectRoot) async {
       'generate_icons.dart failed with exit code ${result.exitCode}',
     );
   }
+}
+
+// ---------------------------------------------------------------------------
+// README.md placeholder replacement
+// ---------------------------------------------------------------------------
+
+void _updateReadme(String version, String projectRoot) {
+  final file = File('$projectRoot/README.md');
+  if (!file.existsSync()) {
+    print('Warning: README.md not found, skipping.');
+    return;
+  }
+
+  final iconCount = _countIconsFromCss(projectRoot);
+
+  var content = file.readAsStringSync();
+  content = content.replaceAll('{{TABLER_VERSION}}', version);
+  content = content.replaceAll('{{ICON_COUNT}}', iconCount.toString());
+  file.writeAsStringSync(content);
+  print('Updated README.md (version: $version, icons: $iconCount)');
+}
+
+int _countIconsFromCss(String projectRoot) {
+  final regex = RegExp(
+    r'\.ti-[\w-]+:before\s*\{\s*content:\s*"\\[0-9a-fA-F]+";\s*\}',
+  );
+  var count = 0;
+  for (final name in ['tabler-icons.css', 'tabler-icons-filled.css']) {
+    final file = File('$projectRoot/assets/css/$name');
+    if (file.existsSync()) {
+      count += regex.allMatches(file.readAsStringSync()).length;
+    }
+  }
+  return count;
 }

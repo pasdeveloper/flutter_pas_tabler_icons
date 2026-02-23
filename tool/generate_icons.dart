@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   final outlineCss = File('assets/css/tabler-icons.css');
   final filledCss = File('assets/css/tabler-icons-filled.css');
-  final outputFile = File('lib/tabler_icons.dart');
+  final outputFile = File('lib/flutter_pas_tabler_icons.dart');
 
   final icons = <String, IconDefinition>{};
 

@@ -1,18 +1,27 @@
 # flutter_pas_tabler_icons
 
-A Flutter package for [Tabler Icons](https://tabler-icons.io/).
+A Flutter package for [Tabler Icons](https://tabler-icons.io/) — **always up to date**, automatically.
 
-Tabler Icons is a set of over 5000+ free-to-use, open-source icons. This package provides icons from **Tabler version 3.36.0** as `IconData` for Flutter, including both the **Outline** and **Filled** variants.
+[![Tabler Icons](https://img.shields.io/badge/Tabler%20Icons-{{TABLER_VERSION}}-blue)](https://tabler-icons.io/)
+[![pub package](https://img.shields.io/pub/v/flutter_pas_tabler_icons.svg)](https://pub.dev/packages/flutter_pas_tabler_icons)
 
-All icons are defined as `static const`, making them fully tree-shakeable so that only the icons you actually use are included in your application's build.
+Unlike other Tabler icon packages for Flutter, **this library updates itself automatically** via a CI pipeline that checks for new Tabler releases weekly. No waiting for a maintainer to manually publish — when Tabler ships new icons, this package follows within days.
 
-## Getting started
+Currently tracking **Tabler Icons v{{TABLER_VERSION}}** with **{{ICON_COUNT}}** icons, including both **Outline** and **Filled** variants. All icons are `static const`, making them fully tree-shakeable.
 
-Add `flutter_pas_tabler_icons` to your `pubspec.yaml` dependencies:
+## Getting Started
+
+Add the package to your project:
+
+```bash
+flutter pub add flutter_pas_tabler_icons
+```
+
+Or manually in your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_pas_tabler_icons: ^3.36.0
+  flutter_pas_tabler_icons: ^{{TABLER_VERSION}}
 ```
 
 Then run:
@@ -55,6 +64,6 @@ Icon names are converted from Tabler's kebab-case to snake_case.
 - `123` -> `TablerIcons.icon_123` (Prefixed with `icon_` if it starts with a digit)
 - `filled` variant -> `TablerIcons.heart_filled` (Suffixed with `_filled`)
 
-## Additional information
+## Additional Information
 
 For a full list of icons, visit [tabler-icons.io](https://tabler-icons.io/).
