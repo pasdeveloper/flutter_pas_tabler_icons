@@ -19,10 +19,8 @@ jobs:
         with:
           fetch-depth: 0 # Need full history for git tags
 
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: stable
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
 
       - name: Run update script
         id: update
