@@ -8,7 +8,6 @@ on:
 
 permissions:
   contents: write
-  id-token: write
 
 jobs:
   update-icons:
@@ -24,9 +23,6 @@ jobs:
         with:
           channel: stable
           cache: true
-
-      - name: Setup pub.dev credentials
-        uses: dart-lang/setup-dart@v1
 
       - name: Run update script
         id: update
@@ -64,7 +60,3 @@ jobs:
           gh release create "v${VERSION}" \
             --title "v${VERSION}" \
             --notes "$NOTES"
-
-      - name: Publish to pub.dev
-        if: steps.update.outputs.updated == 'true'
-        run: flutter pub publish --force
