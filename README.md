@@ -2,12 +2,12 @@
 
 A Flutter package for [Tabler Icons](https://tabler-icons.io/) — **always up to date**, automatically.
 
-[![Tabler Icons](https://img.shields.io/badge/Tabler%20Icons-{{TABLER_VERSION}}-blue)](https://tabler-icons.io/)
+[![Tabler Icons](https://img.shields.io/badge/Tabler%20Icons-3.37.1-blue)](https://tabler-icons.io/)
 [![pub package](https://img.shields.io/pub/v/flutter_pas_tabler_icons.svg)](https://pub.dev/packages/flutter_pas_tabler_icons)
 
 Unlike other Tabler icon packages for Flutter, **this library updates itself automatically** via a CI pipeline that checks for new Tabler releases weekly. No waiting for a maintainer to manually publish — when Tabler ships new icons, this package follows within days.
 
-Currently tracking **Tabler Icons v{{TABLER_VERSION}}** with **{{ICON_COUNT}}** icons, including both **Outline** and **Filled** variants. All icons are `static const`, making them fully tree-shakeable.
+Currently tracking **Tabler Icons v3.37.1** with **6061** icons, including both **Outline** and **Filled** variants. All icons are `static const`, making them fully tree-shakeable.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ Or manually in your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_pas_tabler_icons: ^{{TABLER_VERSION}}
+  flutter_pas_tabler_icons: ^3.37.1
 ```
 
 Then run:
