@@ -1,0 +1,59 @@
+name: Update Tabler Icons
+
+on:
+  # schedule:
+  #   # Every Monday at 08:00 UTC
+  #   - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-icons:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Need full history for git tags
+
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
+
+      - name: Run update script
+        id: update
+        run: |
+          output=$(dart run tool/update_icons.dart 2>&1)
+          echo "$output"
+
+          if echo "$output" | grep -q "updated=true"; then
+            version=$(echo "$output" | grep "version=" | tail -1 | cut -d= -f2)
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+            echo "version=$version" >> "$GITHUB_OUTPUT"
+          else
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.update.outputs.updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: update Tabler Icons to v${{ steps.update.outputs.version }}"
+          git push
+
+      - name: Create GitHub Release
+        if: steps.update.outputs.updated == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="${{ steps.update.outputs.version }}"
+
+          # Extract changelog for this version from CHANGELOG.md
+          NOTES=$(awk '/^## '"$VERSION"'/{found=1; next} /^## /{if(found) exit} found' CHANGELOG.md)
+
+          gh release create "v${VERSION}" \
+            --title "v${VERSION}" \
+            --notes "$NOTES"
