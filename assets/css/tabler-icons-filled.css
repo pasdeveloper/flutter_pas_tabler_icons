@@ -1,12 +1,12 @@
 /*!
- * Tabler Icons 3.36.0 by tabler - https://tabler.io
+ * Tabler Icons 3.37.1 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/master/LICENSE
  */
 @font-face {
   font-family: "tabler-icons-filled";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons-filled.woff2?v3.36.0") format("woff2"), url("./fonts/tabler-icons-filled.woff?") format("woff"), url("./fonts/tabler-icons-filled.ttf?v3.36.0") format("truetype");
+  src: url("./fonts/tabler-icons-filled.woff2?v3.37.1") format("woff2"), url("./fonts/tabler-icons-filled.woff?") format("woff"), url("./fonts/tabler-icons-filled.ttf?v3.37.1") format("truetype");
 }
 .ti {
   font-family: "tabler-icons-filled" !important;
@@ -419,6 +419,10 @@
 
 .ti-badges:before {
   content: "\f7dd";
+}
+
+.ti-ball-bowling:before {
+  content: "\101c5";
 }
 
 .ti-balloon:before {
@@ -1601,6 +1605,10 @@
   content: "\f675";
 }
 
+.ti-crown:before {
+  content: "\101c4";
+}
+
 .ti-current-location:before {
   content: "\10125";
 }
@@ -2075,6 +2083,10 @@
 
 .ti-folder:before {
   content: "\f749";
+}
+
+.ti-folder-open:before {
+  content: "\101c3";
 }
 
 .ti-folders:before {
@@ -2637,6 +2649,10 @@
   content: "\fc3e";
 }
 
+.ti-leaf:before {
+  content: "\101c2";
+}
+
 .ti-lego:before {
   content: "\fe16";
 }
@@ -2865,6 +2881,10 @@
   content: "\f688";
 }
 
+.ti-pacman:before {
+  content: "\101c1";
+}
+
 .ti-paint:before {
   content: "\f75f";
 }
@@ -2905,6 +2925,22 @@
   content: "\fa49";
 }
 
+.ti-phone-call:before {
+  content: "\101c0";
+}
+
+.ti-phone-calling:before {
+  content: "\101bf";
+}
+
+.ti-phone-check:before {
+  content: "\101be";
+}
+
+.ti-phone-x:before {
+  content: "\101bd";
+}
+
 .ti-photo:before {
   content: "\fa4a";
 }
@@ -2935,6 +2971,26 @@
 
 .ti-pizza:before {
   content: "\10008";
+}
+
+.ti-plane:before {
+  content: "\101b9";
+}
+
+.ti-plane-arrival:before {
+  content: "\101bc";
+}
+
+.ti-plane-departure:before {
+  content: "\101bb";
+}
+
+.ti-plane-tilt:before {
+  content: "\101ba";
+}
+
+.ti-play-card:before {
+  content: "\101b8";
 }
 
 .ti-play-card-1:before {
@@ -3033,6 +3089,10 @@
   content: "\f697";
 }
 
+.ti-playlist:before {
+  content: "\101b7";
+}
+
 .ti-point:before {
   content: "\f698";
 }
@@ -3129,6 +3189,14 @@
   content: "\f69c";
 }
 
+.ti-report-analytics:before {
+  content: "\101b6";
+}
+
+.ti-report-money:before {
+  content: "\101b5";
+}
+
 .ti-rollercoaster:before {
   content: "\100f7";
 }
@@ -3147,6 +3215,10 @@
 
 .ti-salad:before {
   content: "\10007";
+}
+
+.ti-satellite:before {
+  content: "\101b4";
 }
 
 .ti-scuba-diving-tank:before {
@@ -3227,6 +3299,14 @@
 
 .ti-spade:before {
   content: "\f6a3";
+}
+
+.ti-sparkles:before {
+  content: "\101b2";
+}
+
+.ti-sparkles-2:before {
+  content: "\101b3";
 }
 
 .ti-speedboat:before {
