@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 jobs:
   update-icons:
@@ -18,8 +19,10 @@ jobs:
         with:
           fetch-depth: 0 # Need full history for git tags
 
-      - name: Setup Dart
-        uses: dart-lang/setup-dart@v1
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
 
       - name: Run update script
         id: update
@@ -57,3 +60,7 @@ jobs:
           gh release create "v${VERSION}" \
             --title "v${VERSION}" \
             --notes "$NOTES"
+
+      - name: Publish to pub.dev
+        if: steps.update.outputs.updated == 'true'
+        run: dart pub publish --force
