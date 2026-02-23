@@ -33,6 +33,13 @@
 - Fixed icon: `credit-card-off`
 - Added missing icon versions metadata
 
+## 3.37.1
+
+### Fixed
+
+- Fixed icon: `credit-card-off`
+- Added missing icon versions metadata
+
 ## 3.36.0
 
 * Initial release with Tabler Icons v3.36.0.
