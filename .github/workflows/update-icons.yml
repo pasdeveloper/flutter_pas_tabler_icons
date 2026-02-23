@@ -19,8 +19,11 @@ jobs:
         with:
           fetch-depth: 0 # Need full history for git tags
 
-      - name: Setup Dart
-        uses: dart-lang/setup-dart@v1
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
 
       - name: Run update script
         id: update
@@ -61,4 +64,4 @@ jobs:
 
       - name: Publish to pub.dev
         if: steps.update.outputs.updated == 'true'
-        run: dart pub publish --force
+        run: flutter pub publish --force
