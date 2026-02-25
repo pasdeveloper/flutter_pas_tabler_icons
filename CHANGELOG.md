@@ -1,44 +1,8 @@
-## 3.37.1
+## 3.37.1+1
 
 ### Fixed
 
-- Fixed icon: `credit-card-off`
-- Added missing icon versions metadata
-
-## 3.37.1
-
-### Fixed
-
-- Fixed icon: `credit-card-off`
-- Added missing icon versions metadata
-
-## 3.37.1
-
-### Fixed
-
-- Fixed icon: `credit-card-off`
-- Added missing icon versions metadata
-
-## 3.37.1
-
-### Fixed
-
-- Fixed icon: `credit-card-off`
-- Added missing icon versions metadata
-
-## 3.37.1
-
-### Fixed
-
-- Fixed icon: `credit-card-off`
-- Added missing icon versions metadata
-
-## 3.37.1
-
-### Fixed
-
-- Fixed icon: `credit-card-off`
-- Added missing icon versions metadata
+- Fixed icon library name
 
 ## 3.37.1
 
