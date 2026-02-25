@@ -5,7 +5,7 @@ class TablerIcons {
   TablerIcons._();
 
   static const String _kFontFam = 'tabler-icons';
-  static const String _kFontPkg = 'tabler_icons';
+  static const String _kFontPkg = 'flutter_pas_tabler_icons';
   static const String _kFontFamFilled = 'tabler-icons-filled';
 
   static const IconData icon_123 = IconData(0xf554, fontFamily: _kFontFam, fontPackage: _kFontPkg);
