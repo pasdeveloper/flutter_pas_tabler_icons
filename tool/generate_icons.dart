@@ -23,7 +23,9 @@ void main() {
   buffer.writeln('  TablerIcons._();');
   buffer.writeln();
   buffer.writeln("  static const String _kFontFam = 'tabler-icons';");
-  buffer.writeln("  static const String _kFontPkg = 'tabler_icons';");
+  buffer.writeln(
+    "  static const String _kFontPkg = 'flutter_pas_tabler_icons';",
+  );
   buffer.writeln(
     "  static const String _kFontFamFilled = 'tabler-icons-filled';",
   );
