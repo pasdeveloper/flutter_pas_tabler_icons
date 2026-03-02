@@ -47,7 +47,7 @@ void main() async {
   await _runGenerateIcons(projectRoot);
 
   // 9. Update README.md placeholders
-  _updateReadme(latestVersion, projectRoot);
+  _updateReadme(latestVersion, currentVersion, projectRoot);
 
   print('updated=true');
   print('version=$latestVersion');
@@ -314,7 +314,7 @@ Future<void> _runGenerateIcons(String projectRoot) async {
 // README.md placeholder replacement
 // ---------------------------------------------------------------------------
 
-void _updateReadme(String version, String projectRoot) {
+void _updateReadme(String version, String currentVersion, String projectRoot) {
   final file = File('$projectRoot/README.md');
   if (!file.existsSync()) {
     print('Warning: README.md not found, skipping.');
@@ -324,8 +324,16 @@ void _updateReadme(String version, String projectRoot) {
   final iconCount = _countIconsFromCss(projectRoot);
 
   var content = file.readAsStringSync();
-  content = content.replaceAll('{{TABLER_VERSION}}', version);
-  content = content.replaceAll('{{ICON_COUNT}}', iconCount.toString());
+
+  // Replace the old version string with the new one
+  content = content.replaceAll(currentVersion, version);
+
+  // Item count
+  content = content.replaceAll(
+    RegExp(r'with \*\*[0-9]+\*\* icons'),
+    'with **$iconCount** icons',
+  );
+
   file.writeAsStringSync(content);
   print('Updated README.md (version: $version, icons: $iconCount)');
 }
