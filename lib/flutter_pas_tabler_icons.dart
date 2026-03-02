@@ -52,6 +52,7 @@ class TablerIcons {
   static const IconData adjustments_filled = IconData(0xf6ec, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData adjustments_heart = IconData(0xf803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData adjustments_horizontal = IconData(0xec38, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData adjustments_horizontal_filled = IconData(0x101e7, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData adjustments_minus = IconData(0xf804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData adjustments_off = IconData(0xf0a8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData adjustments_pause = IconData(0xf805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1533,6 +1534,7 @@ class TablerIcons {
   static const IconData chart_scatter_3d = IconData(0xfd92, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData chart_treemap = IconData(0xf381, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData check = IconData(0xea5e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData check_filled = IconData(0x101e6, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData checkbox = IconData(0xeba6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData checklist = IconData(0xf074, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData checks = IconData(0xebaa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1560,11 +1562,13 @@ class TablerIcons {
   static const IconData chevron_compact_right = IconData(0xfaf2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData chevron_compact_up = IconData(0xfaf3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData chevron_down = IconData(0xea5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData chevron_down_filled = IconData(0x101e5, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData chevron_down_left = IconData(0xed09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData chevron_down_right = IconData(0xed0a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData chevron_left = IconData(0xea60, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData chevron_left_pipe = IconData(0xfae4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData chevron_right = IconData(0xea61, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData chevron_right_filled = IconData(0x101e4, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData chevron_right_pipe = IconData(0xfae5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData chevron_up = IconData(0xea62, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData chevron_up_left = IconData(0xed0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1826,6 +1830,7 @@ class TablerIcons {
   static const IconData clear_all = IconData(0xee41, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData clear_formatting = IconData(0xebe5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData click = IconData(0xebbc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData click_filled = IconData(0x101e3, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData cliff_jumping = IconData(0xfefc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData clipboard = IconData(0xea6f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData clipboard_check = IconData(0xea6c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2038,6 +2043,7 @@ class TablerIcons {
   static const IconData copy = IconData(0xea7a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData copy_check = IconData(0xfdb0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData copy_check_filled = IconData(0xfe53, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  static const IconData copy_filled = IconData(0x101e2, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData copy_minus = IconData(0xfdaf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData copy_minus_filled = IconData(0xfe52, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData copy_off = IconData(0xf0d8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2208,6 +2214,7 @@ class TablerIcons {
   static const IconData database_edit = IconData(0xfa12, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData database_exclamation = IconData(0xfa13, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData database_export = IconData(0xee6e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData database_filled = IconData(0x101e1, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData database_heart = IconData(0xfa14, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData database_import = IconData(0xee6f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData database_leak = IconData(0xfa15, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2265,8 +2272,10 @@ class TablerIcons {
   static const IconData device_desktop_up = IconData(0xf86f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData device_desktop_x = IconData(0xf870, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData device_floppy = IconData(0xeb62, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData device_floppy_filled = IconData(0x101e0, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData device_gamepad = IconData(0xeb63, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData device_gamepad_2 = IconData(0xf1d2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData device_gamepad_2_filled = IconData(0x101df, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData device_gamepad_3 = IconData(0xfc58, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData device_gamepad_3_filled = IconData(0x10049, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData device_gamepad_filled = IconData(0x1019c, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
@@ -2526,8 +2535,11 @@ class TablerIcons {
   static const IconData dots_circle_horizontal = IconData(0xea91, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData dots_diagonal = IconData(0xea93, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData dots_diagonal_2 = IconData(0xea92, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData dots_filled = IconData(0x101dd, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData dots_vertical = IconData(0xea94, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData dots_vertical_filled = IconData(0x101de, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData download = IconData(0xea96, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData download_filled = IconData(0x101dc, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData download_off = IconData(0xf11c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData drag_drop = IconData(0xeb89, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData drag_drop_2 = IconData(0xeb88, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2583,6 +2595,7 @@ class TablerIcons {
   static const IconData edit = IconData(0xea98, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData edit_circle = IconData(0xee85, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData edit_circle_off = IconData(0xf11d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData edit_filled = IconData(0x101db, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData edit_off = IconData(0xf11e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData egg = IconData(0xeb8a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData egg_cracked = IconData(0xf2d6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2634,6 +2647,7 @@ class TablerIcons {
   static const IconData exposure_plus_1 = IconData(0xf29f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData exposure_plus_2 = IconData(0xf2a0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData external_link = IconData(0xea99, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData external_link_filled = IconData(0x101da, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData external_link_off = IconData(0xf125, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData eye = IconData(0xea9a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData eye_bitcoin = IconData(0xff3d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3139,6 +3153,7 @@ class TablerIcons {
   static const IconData headphones_filled = IconData(0xfa3c, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData headphones_off = IconData(0xed1d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData headset = IconData(0xeb90, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData headset_filled = IconData(0x101d9, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData headset_off = IconData(0xf3f6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData health_recognition = IconData(0xf1fb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData heart = IconData(0xeabe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3181,6 +3196,7 @@ class TablerIcons {
   static const IconData help = IconData(0xeabf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData help_circle = IconData(0xf91d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData help_circle_filled = IconData(0xfa3d, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  static const IconData help_filled = IconData(0x101d8, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData help_hexagon = IconData(0xf7a8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData help_hexagon_filled = IconData(0xfa3e, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData help_octagon = IconData(0xf7a9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3308,6 +3324,7 @@ class TablerIcons {
   static const IconData history_toggle = IconData(0xf1fc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home = IconData(0xeac1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_2 = IconData(0xeac0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData home_2_filled = IconData(0x101d7, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData home_bitcoin = IconData(0xff3a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_bolt = IconData(0xf336, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_cancel = IconData(0xf350, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3386,6 +3403,7 @@ class TablerIcons {
   static const IconData id_badge = IconData(0xeff7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData id_badge_2 = IconData(0xf076, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData id_badge_off = IconData(0xf3fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData id_filled = IconData(0x101d6, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData id_off = IconData(0xf149, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData ikosaedr = IconData(0xfec6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData image_in_picture = IconData(0xfd9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3671,12 +3689,16 @@ class TablerIcons {
   static const IconData line_height = IconData(0xeb94, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData line_scan = IconData(0xfcb8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData link = IconData(0xeade, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData link_filled = IconData(0x101d5, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData link_minus = IconData(0xfd16, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData link_off = IconData(0xf402, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData link_plus = IconData(0xfd17, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData list = IconData(0xeb6b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData list_check = IconData(0xeb6a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData list_check_filled = IconData(0x101d4, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData list_details = IconData(0xef40, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData list_details_filled = IconData(0x101d3, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  static const IconData list_filled = IconData(0x101d2, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData list_letters = IconData(0xfc47, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData list_numbers = IconData(0xef11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData list_search = IconData(0xeea9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3929,6 +3951,7 @@ class TablerIcons {
   static const IconData menorah = IconData(0xf58c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData menu = IconData(0xeaeb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData menu_2 = IconData(0xec42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData menu_2_filled = IconData(0x101d1, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData menu_3 = IconData(0xff43, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData menu_4 = IconData(0xff42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData menu_deep = IconData(0xfafb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -4012,6 +4035,7 @@ class TablerIcons {
   static const IconData message_user = IconData(0xfec4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData message_x = IconData(0xf98f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData messages = IconData(0xeb6c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData messages_filled = IconData(0x101d0, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData messages_off = IconData(0xed42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData meteor = IconData(0xf1fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData meteor_filled = IconData(0x1000d, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
@@ -4416,6 +4440,7 @@ class TablerIcons {
   static const IconData pencil_dollar = IconData(0xfc03, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData pencil_down = IconData(0xfc04, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData pencil_exclamation = IconData(0xfc05, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData pencil_filled = IconData(0x101cf, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData pencil_heart = IconData(0xfc06, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData pencil_minus = IconData(0xf1eb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData pencil_off = IconData(0xf173, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -4648,6 +4673,7 @@ class TablerIcons {
   static const IconData plug_x = IconData(0xf0a1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData plus = IconData(0xeb0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData plus_equal = IconData(0xf7ad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData plus_filled = IconData(0x101ce, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData plus_minus = IconData(0xf7ae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData png = IconData(0xf3ad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData podium = IconData(0xf1d8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -4924,6 +4950,7 @@ class TablerIcons {
   static const IconData satellite_off = IconData(0xf197, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData sausage = IconData(0xef17, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData scale = IconData(0xebc2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData scale_filled = IconData(0x101cd, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData scale_off = IconData(0xf198, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData scale_outline = IconData(0xef53, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData scale_outline_off = IconData(0xf199, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -4934,6 +4961,7 @@ class TablerIcons {
   static const IconData schema_off = IconData(0xf426, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData school = IconData(0xecf7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData school_bell = IconData(0xf64a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData school_filled = IconData(0x101cc, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData school_off = IconData(0xf19a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData scissors = IconData(0xeb1b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData scissors_off = IconData(0xf19b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -4956,6 +4984,7 @@ class TablerIcons {
   static const IconData scuba_mask_off = IconData(0xf428, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData sdk = IconData(0xf3af, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData search = IconData(0xeb1c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData search_filled = IconData(0x101cb, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData search_off = IconData(0xf19c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData section = IconData(0xeed5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData section_filled = IconData(0xfe09, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
@@ -4971,6 +5000,7 @@ class TablerIcons {
   static const IconData selector = IconData(0xeb1d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData send = IconData(0xeb1e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData send_2 = IconData(0xfd5d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData send_filled = IconData(0x101ca, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData send_off = IconData(0xf429, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData seo = IconData(0xf26b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData separator = IconData(0xebda, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -5648,6 +5678,7 @@ class TablerIcons {
   static const IconData thumb_up_off = IconData(0xf437, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tic_tac = IconData(0xf51c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData ticket = IconData(0xeb3d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ticket_filled = IconData(0x101c9, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData ticket_off = IconData(0xf1b2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tie = IconData(0xf07e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tilde = IconData(0xf4a5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -5687,6 +5718,7 @@ class TablerIcons {
   static const IconData tools = IconData(0xebca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tools_kitchen = IconData(0xed64, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tools_kitchen_2 = IconData(0xeeff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData tools_kitchen_2_filled = IconData(0x101c8, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData tools_kitchen_2_off = IconData(0xf1b5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tools_kitchen_3 = IconData(0xfd2b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tools_kitchen_off = IconData(0xf1b6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -5985,6 +6017,7 @@ class TablerIcons {
   static const IconData world_down = IconData(0xf9df, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData world_download = IconData(0xef8a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData world_exclamation = IconData(0xf9e0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData world_filled = IconData(0x101c7, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData world_heart = IconData(0xf9e1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData world_latitude = IconData(0xed2e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData world_longitude = IconData(0xed2f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -6009,6 +6042,7 @@ class TablerIcons {
   static const IconData writing_sign_filled = IconData(0x1018c, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData writing_sign_off = IconData(0xf1cc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData x = IconData(0xeb55, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData x_filled = IconData(0x101c6, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData x_power_y = IconData(0x10072, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData xbox_a = IconData(0xf2b6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData xbox_a_filled = IconData(0xfdcb, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
