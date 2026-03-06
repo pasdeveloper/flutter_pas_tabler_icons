@@ -1,6 +1,6 @@
 # flutter_pas_tabler_icons
 
-A Flutter package for [Tabler Icons](https://tabler-icons.io/) — **always up to date**, automatically.
+A Flutter package for [Tabler Icons](https://tabler.io/icons) — **always up to date**, automatically.
 
 [![Tabler Icons](https://img.shields.io/badge/Tabler%20Icons-3.39.0-blue)](https://tabler-icons.io/)
 [![pub package](https://img.shields.io/pub/v/flutter_pas_tabler_icons.svg)](https://pub.dev/packages/flutter_pas_tabler_icons)
@@ -66,4 +66,4 @@ Icon names are converted from Tabler's kebab-case to snake_case.
 
 ## Additional Information
 
-For a full list of icons, visit [tabler-icons.io](https://tabler-icons.io/).
+For a full list of icons, visit [tabler.io/icons](https://tabler.io/icons).
