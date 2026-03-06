@@ -1,3 +1,28 @@
+## 3.39.0
+
+### 18 new icons:
+
+- `outline/ai-agent`
+- `outline/ai-agents`
+- `outline/ai-gateway`
+- `outline/bot-id`
+- `outline/canary`
+- `outline/codeblock`
+- `outline/connection`
+- `outline/credits`
+- `outline/firewall-check`
+- `outline/firewall-flame`
+- `outline/image-generation`
+- `outline/microfrontends`
+- `outline/middleware`
+- `outline/scan-traces`
+- `outline/serverless`
+- `outline/user-key`
+- `outline/world-map`
+- `outline/zero-config`
+
+Fixed icons: `outline/api`, `outline/sort-ascending-2`, `outline/sort-descending-2`
+
 ## 3.38.0
 
 ### 34 new icons:

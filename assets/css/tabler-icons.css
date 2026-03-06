@@ -1,12 +1,12 @@
 /*!
- * Tabler Icons 3.38.0 by tabler - https://tabler.io
+ * Tabler Icons 3.39.0 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/master/LICENSE
  */
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.woff2?v3.38.0") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v3.38.0") format("truetype");
+  src: url("./fonts/tabler-icons.woff2?v3.39.0") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v3.39.0") format("truetype");
 }
 .ti {
   font-family: "tabler-icons" !important;
@@ -203,6 +203,18 @@
 
 .ti-ai:before {
   content: "\fee7";
+}
+
+.ti-ai-agent:before {
+  content: "\101f9";
+}
+
+.ti-ai-agents:before {
+  content: "\101f8";
+}
+
+.ti-ai-gateway:before {
+  content: "\101f7";
 }
 
 .ti-air-balloon:before {
@@ -2299,6 +2311,10 @@
 
 .ti-border-vertical:before {
   content: "\ea44";
+}
+
+.ti-bot-id:before {
+  content: "\101f6";
 }
 
 .ti-bottle:before {
@@ -4561,6 +4577,10 @@
   content: "\f5a7";
 }
 
+.ti-canary:before {
+  content: "\101f5";
+}
+
 .ti-cancel:before {
   content: "\ff11";
 }
@@ -6301,6 +6321,10 @@
   content: "\100ac";
 }
 
+.ti-codeblock:before {
+  content: "\101f4";
+}
+
 .ti-coffee:before {
   content: "\ef0e";
 }
@@ -6467,6 +6491,10 @@
 
 .ti-congruent-to:before {
   content: "\ffa3";
+}
+
+.ti-connection:before {
+  content: "\101f3";
 }
 
 .ti-container:before {
@@ -6679,6 +6707,10 @@
 
 .ti-credit-card-refund:before {
   content: "\fd33";
+}
+
+.ti-credits:before {
+  content: "\101f2";
 }
 
 .ti-cricket:before {
@@ -9385,6 +9417,14 @@
   content: "\ebe8";
 }
 
+.ti-firewall-check:before {
+  content: "\101f1";
+}
+
+.ti-firewall-flame:before {
+  content: "\101f0";
+}
+
 .ti-first-aid-kit:before {
   content: "\ef5f";
 }
@@ -11015,6 +11055,10 @@
 
 .ti-ikosaedr:before {
   content: "\fec6";
+}
+
+.ti-image-generation:before {
+  content: "\101ef";
 }
 
 .ti-image-in-picture:before {
@@ -13177,6 +13221,10 @@
   content: "\f2a3";
 }
 
+.ti-microfrontends:before {
+  content: "\101ee";
+}
+
 .ti-microphone:before {
   content: "\eaf0";
 }
@@ -13207,6 +13255,10 @@
 
 .ti-microwave-off:before {
   content: "\f264";
+}
+
+.ti-middleware:before {
+  content: "\101ed";
 }
 
 .ti-military-award:before {
@@ -16341,6 +16393,10 @@
   content: "\fdac";
 }
 
+.ti-scan-traces:before {
+  content: "\101ec";
+}
+
 .ti-schema:before {
   content: "\f200";
 }
@@ -16523,6 +16579,10 @@
 
 .ti-server-spark:before {
   content: "\ffaf";
+}
+
+.ti-serverless:before {
+  content: "\101eb";
 }
 
 .ti-servicemark:before {
@@ -19085,6 +19145,10 @@
   content: "\fc4e";
 }
 
+.ti-user-key:before {
+  content: "\101ea";
+}
+
 .ti-user-minus:before {
   content: "\eb4a";
 }
@@ -19721,6 +19785,10 @@
   content: "\ed2f";
 }
 
+.ti-world-map:before {
+  content: "\101e9";
+}
+
 .ti-world-minus:before {
   content: "\f9e2";
 }
@@ -19839,6 +19907,10 @@
 
 .ti-zeppelin-off:before {
   content: "\f43f";
+}
+
+.ti-zero-config:before {
+  content: "\101e8";
 }
 
 .ti-zip:before {
