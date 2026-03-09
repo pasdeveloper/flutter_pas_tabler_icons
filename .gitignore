@@ -30,5 +30,10 @@ migrate_working_dir/
 /build/
 /coverage/
 
+# Example
+/example/build/
+/example/coverage/
+/example/pubspec.lock
+
 # FVM Version Cache
 .fvm/

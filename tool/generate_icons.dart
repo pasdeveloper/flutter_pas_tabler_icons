@@ -19,6 +19,7 @@ void main() {
   buffer.writeln("// GENERATED CODE - DO NOT MODIFY BY HAND");
   buffer.writeln("import 'package:flutter/widgets.dart';");
   buffer.writeln();
+  buffer.writeln("/// A collection of Tabler Icons.");
   buffer.writeln('class TablerIcons {');
   buffer.writeln('  TablerIcons._();');
   buffer.writeln();
@@ -37,7 +38,7 @@ void main() {
     final def = icons[name]!;
     final validName = sanitizeName(name);
     final familyVar = def.isFilled ? '_kFontFamFilled' : '_kFontFam';
-
+    buffer.writeln('  /// The [$name] icon from the Tabler Icons set.');
     buffer.writeln(
       '  static const IconData $validName = IconData(0x${def.code}, fontFamily: $familyVar, fontPackage: _kFontPkg);',
     );
