@@ -1,3 +1,28 @@
+## 3.40.0
+
+### 18 new icons:
+
+- `outline/api-book`
+- `outline/brand-infakt`
+- `outline/circle-open-arrow-down`
+- `outline/circle-open-arrow-left`
+- `outline/circle-open-arrow-right`
+- `outline/circle-open-arrow-up`
+- `outline/circle-plus-minus`
+- `outline/home-lock`
+- `outline/map-lock`
+- `outline/map-shield`
+- `outline/mesh`
+- `outline/queue-pop-in`
+- `outline/queue-pop-out`
+- `outline/stroke-curved`
+- `outline/stroke-dynamic`
+- `outline/stroke-straight`
+- `outline/trending-up-down`
+- `outline/vip-2`
+
+Fixed icons: `outline/api`, `outline/home-shield`
+
 ## 3.39.0
 
 ### 18 new icons:
