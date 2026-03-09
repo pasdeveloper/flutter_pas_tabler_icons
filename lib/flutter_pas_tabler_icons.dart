@@ -70,6 +70,9 @@ class TablerIcons {
   static const IconData affiliate = IconData(0xedff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData affiliate_filled = IconData(0xf6ed, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData ai = IconData(0xfee7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ai_agent = IconData(0x101f9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ai_agents = IconData(0x101f8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ai_gateway = IconData(0x101f7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData air_balloon = IconData(0xf4a6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData air_balloon_filled = IconData(0x10100, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData air_conditioning = IconData(0xf3a2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -179,6 +182,7 @@ class TablerIcons {
   static const IconData api = IconData(0xeffd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData api_app = IconData(0xeffc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData api_app_off = IconData(0xf0ab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData api_book = IconData(0x1020b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData api_off = IconData(0xf0f8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData app_window = IconData(0xefe6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData app_window_filled = IconData(0xf71a, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
@@ -733,6 +737,7 @@ class TablerIcons {
   static const IconData border_top = IconData(0xea43, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData border_top_plus = IconData(0xfdba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData border_vertical = IconData(0xea44, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData bot_id = IconData(0x101f6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData bottle = IconData(0xef0b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData bottle_filled = IconData(0xfa89, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData bottle_off = IconData(0xf3c8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -969,6 +974,7 @@ class TablerIcons {
   static const IconData brand_hipchat = IconData(0xedcd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData brand_html5 = IconData(0xed6c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData brand_inertia = IconData(0xf34a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData brand_infakt = IconData(0x1020a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData brand_instagram = IconData(0xec20, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData brand_instagram_filled = IconData(0x10094, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData brand_intercom = IconData(0xf1cf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1373,6 +1379,7 @@ class TablerIcons {
   static const IconData camper = IconData(0xfa25, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData campfire = IconData(0xf5a7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData campfire_filled = IconData(0xfb28, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  static const IconData canary = IconData(0x101f5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData cancel = IconData(0xff11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData candle = IconData(0xefc6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData candle_filled = IconData(0xfc23, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
@@ -1793,11 +1800,16 @@ class TablerIcons {
   static const IconData circle_number_9 = IconData(0xee3d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData circle_number_9_filled = IconData(0xf738, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData circle_off = IconData(0xee40, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData circle_open_arrow_down = IconData(0x10209, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData circle_open_arrow_left = IconData(0x10208, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData circle_open_arrow_right = IconData(0x10207, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData circle_open_arrow_up = IconData(0x10206, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData circle_percentage = IconData(0xfd7b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData circle_percentage_filled = IconData(0xfed5, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData circle_plus = IconData(0xea69, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData circle_plus_2 = IconData(0xfc8d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData circle_plus_filled = IconData(0xfef9, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  static const IconData circle_plus_minus = IconData(0x10205, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData circle_rectangle = IconData(0xf010, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData circle_rectangle_filled = IconData(0xff63, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData circle_rectangle_off = IconData(0xf0cd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -1966,6 +1978,7 @@ class TablerIcons {
   static const IconData code_variable = IconData(0x100ab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData code_variable_minus = IconData(0x100ad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData code_variable_plus = IconData(0x100ac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData codeblock = IconData(0x101f4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData coffee = IconData(0xef0e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData coffee_off = IconData(0xf106, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData coffin = IconData(0xf579, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2024,6 +2037,7 @@ class TablerIcons {
   static const IconData confetti_off = IconData(0xf3d9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData confucius = IconData(0xf58a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData congruent_to = IconData(0xffa3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData connection = IconData(0x101f3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData container = IconData(0xee47, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData container_filled = IconData(0x10184, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData container_off = IconData(0xf107, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2090,6 +2104,7 @@ class TablerIcons {
   static const IconData credit_card_off = IconData(0xed11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData credit_card_pay = IconData(0xfd32, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData credit_card_refund = IconData(0xfd33, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData credits = IconData(0x101f2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData cricket = IconData(0xf09a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData crop = IconData(0xea85, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData crop_16_9 = IconData(0xfd51, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -2896,6 +2911,8 @@ class TablerIcons {
   static const IconData fire_hydrant = IconData(0xf3a9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData fire_hydrant_off = IconData(0xf3ec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData firetruck = IconData(0xebe8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData firewall_check = IconData(0x101f1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData firewall_flame = IconData(0x101f0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData first_aid_kit = IconData(0xef5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData first_aid_kit_off = IconData(0xf3ed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData fish = IconData(0xef2b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3341,6 +3358,7 @@ class TablerIcons {
   static const IconData home_heart = IconData(0xf353, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_infinity = IconData(0xf505, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_link = IconData(0xf354, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData home_lock = IconData(0x10204, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_minus = IconData(0xf33d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_move = IconData(0xf33e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_off = IconData(0xf145, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3406,6 +3424,7 @@ class TablerIcons {
   static const IconData id_filled = IconData(0x101d6, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData id_off = IconData(0xf149, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData ikosaedr = IconData(0xfec6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData image_generation = IconData(0x101ef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData image_in_picture = IconData(0xfd9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData inbox = IconData(0xeac4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData inbox_off = IconData(0xf14a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3844,6 +3863,7 @@ class TablerIcons {
   static const IconData map_east = IconData(0xfc5d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_exclamation = IconData(0xfbcb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_heart = IconData(0xfbcc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData map_lock = IconData(0x10203, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_minus = IconData(0xfbcd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_north = IconData(0xfc5e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_off = IconData(0xf15c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3877,6 +3897,7 @@ class TablerIcons {
   static const IconData map_route = IconData(0xfc79, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_search = IconData(0xef82, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_share = IconData(0xfbd1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData map_shield = IconData(0x10202, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_south = IconData(0xfc5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_star = IconData(0xfbd2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData map_up = IconData(0xfbd3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -3956,6 +3977,7 @@ class TablerIcons {
   static const IconData menu_4 = IconData(0xff42, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData menu_deep = IconData(0xfafb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData menu_order = IconData(0xf5f5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData mesh = IconData(0x10201, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData message = IconData(0xeaef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData message_2 = IconData(0xeaec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData message_2_bolt = IconData(0xf95c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -4049,6 +4071,7 @@ class TablerIcons {
   static const IconData michelin_star_green = IconData(0xfaea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData mickey = IconData(0xf2a3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData mickey_filled = IconData(0xf683, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  static const IconData microfrontends = IconData(0x101ee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData microphone = IconData(0xeaf0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData microphone_2 = IconData(0xef2c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData microphone_2_off = IconData(0xf40d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -4060,6 +4083,7 @@ class TablerIcons {
   static const IconData microwave = IconData(0xf248, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData microwave_filled = IconData(0xfe0e, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData microwave_off = IconData(0xf264, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData middleware = IconData(0x101ed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData military_award = IconData(0xf079, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData military_rank = IconData(0xefcf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData military_rank_filled = IconData(0xff5e, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
@@ -4753,6 +4777,8 @@ class TablerIcons {
   static const IconData qrcode = IconData(0xeb11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData qrcode_off = IconData(0xf41e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData question_mark = IconData(0xec9d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData queue_pop_in = IconData(0x10200, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData queue_pop_out = IconData(0x101ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData quote = IconData(0xefbe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData quote_filled = IconData(0x1009c, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData quote_off = IconData(0xf188, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -4957,6 +4983,7 @@ class TablerIcons {
   static const IconData scan = IconData(0xebc8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData scan_eye = IconData(0xf1ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData scan_position = IconData(0xfdac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData scan_traces = IconData(0x101ec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData schema = IconData(0xf200, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData schema_off = IconData(0xf426, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData school = IconData(0xecf7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -5012,6 +5039,7 @@ class TablerIcons {
   static const IconData server_cog = IconData(0xf321, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData server_off = IconData(0xf19e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData server_spark = IconData(0xffaf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData serverless = IconData(0x101eb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData servicemark = IconData(0xec09, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData settings = IconData(0xeb20, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData settings_2 = IconData(0xf5ac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -5540,6 +5568,9 @@ class TablerIcons {
   static const IconData stretching = IconData(0xf2db, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData stretching_2 = IconData(0xfa6d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData strikethrough = IconData(0xeb9e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData stroke_curved = IconData(0x101fe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData stroke_dynamic = IconData(0x101fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData stroke_straight = IconData(0x101fc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData submarine = IconData(0xed94, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData subscript = IconData(0xeb9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData subtask = IconData(0xec9f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -5792,6 +5823,7 @@ class TablerIcons {
   static const IconData trending_up = IconData(0xeb43, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData trending_up_2 = IconData(0xedc3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData trending_up_3 = IconData(0xedc4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData trending_up_down = IconData(0x101fb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData triangle = IconData(0xeb44, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData triangle_filled = IconData(0xf6ad, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData triangle_inverted = IconData(0xf01d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -5854,6 +5886,7 @@ class TablerIcons {
   static const IconData user_filled = IconData(0xfd19, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData user_heart = IconData(0xf7cd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData user_hexagon = IconData(0xfc4e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData user_key = IconData(0x101ea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData user_minus = IconData(0xeb4a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData user_off = IconData(0xecf9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData user_pause = IconData(0xf9d7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -5918,6 +5951,7 @@ class TablerIcons {
   static const IconData viewport_wide = IconData(0xebf4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData vinyl = IconData(0xf00d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData vip = IconData(0xf3b3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData vip_2 = IconData(0x101fa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData vip_off = IconData(0xf43a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData virus = IconData(0xeb74, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData virus_off = IconData(0xed66, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -6021,6 +6055,7 @@ class TablerIcons {
   static const IconData world_heart = IconData(0xf9e1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData world_latitude = IconData(0xed2e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData world_longitude = IconData(0xed2f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData world_map = IconData(0x101e9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData world_minus = IconData(0xf9e2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData world_off = IconData(0xf1ca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData world_pause = IconData(0xf9e3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -6060,6 +6095,7 @@ class TablerIcons {
   static const IconData zeppelin = IconData(0xf270, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData zeppelin_filled = IconData(0xfdc7, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   static const IconData zeppelin_off = IconData(0xf43f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData zero_config = IconData(0x101e8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData zip = IconData(0xf3b4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData zodiac_aquarius = IconData(0xecac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData zodiac_aries = IconData(0xecad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
