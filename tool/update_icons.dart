@@ -23,7 +23,7 @@ void main() async {
   print('Current local version: $currentVersion');
 
   // 3. Compare
-  if (currentVersion == latestVersion) {
+  if (!_isNewer(latestVersion, currentVersion)) {
     print('Already up to date.');
     print('updated=false');
     return;
@@ -51,6 +51,24 @@ void main() async {
 
   print('updated=true');
   print('version=$latestVersion');
+}
+
+/// Returns true if [latest] is strictly newer than [current] semantically.
+/// Ignores build metadata (e.g. +1) for the comparison.
+bool _isNewer(String latest, String current) {
+  final latestBase = latest.split('+').first;
+  final currentBase = current.split('+').first;
+
+  if (latestBase == currentBase) return false;
+
+  final latestParts = latestBase.split('.').map(int.parse).toList();
+  final currentParts = currentBase.split('.').map(int.parse).toList();
+
+  for (var i = 0; i < 3; i++) {
+    if (latestParts[i] > currentParts[i]) return true;
+    if (latestParts[i] < currentParts[i]) return false;
+  }
+  return false;
 }
 
 // ---------------------------------------------------------------------------
