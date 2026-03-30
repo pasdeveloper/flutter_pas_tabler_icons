@@ -1953,6 +1953,8 @@ class TablerIcons {
   static const IconData brand_itch = IconData(0xfa22, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [brand_javascript] icon from the Tabler Icons set.
   static const IconData brand_javascript = IconData(0xef0c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [brand_jira] icon from the Tabler Icons set.
+  static const IconData brand_jira = IconData(0x10231, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [brand_juejin] icon from the Tabler Icons set.
   static const IconData brand_juejin = IconData(0xf7b0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [brand_kako_talk] icon from the Tabler Icons set.
@@ -2819,6 +2821,10 @@ class TablerIcons {
   static const IconData car_garage = IconData(0xfc77, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [car_off] icon from the Tabler Icons set.
   static const IconData car_off = IconData(0xf0c7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [car_off_road] icon from the Tabler Icons set.
+  static const IconData car_off_road = IconData(0x10230, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [car_suspension] icon from the Tabler Icons set.
+  static const IconData car_suspension = IconData(0x1022f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [car_suv] icon from the Tabler Icons set.
   static const IconData car_suv = IconData(0xfc8b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [car_suv_filled] icon from the Tabler Icons set.
@@ -4195,6 +4201,8 @@ class TablerIcons {
   static const IconData credit_card = IconData(0xea84, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [credit_card_filled] icon from the Tabler Icons set.
   static const IconData credit_card_filled = IconData(0xfd11, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  /// The [credit_card_hand] icon from the Tabler Icons set.
+  static const IconData credit_card_hand = IconData(0x1022e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [credit_card_off] icon from the Tabler Icons set.
   static const IconData credit_card_off = IconData(0xed11, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [credit_card_pay] icon from the Tabler Icons set.
@@ -4497,6 +4505,10 @@ class TablerIcons {
   static const IconData details = IconData(0xee71, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [details_off] icon from the Tabler Icons set.
   static const IconData details_off = IconData(0xf3e2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [device_3d_camera] icon from the Tabler Icons set.
+  static const IconData device_3d_camera = IconData(0x1022d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [device_3d_lens] icon from the Tabler Icons set.
+  static const IconData device_3d_lens = IconData(0x1022c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [device_airpods] icon from the Tabler Icons set.
   static const IconData device_airpods = IconData(0xf5a9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [device_airpods_case] icon from the Tabler Icons set.
@@ -4783,6 +4795,8 @@ class TablerIcons {
   static const IconData device_remote = IconData(0xf792, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [device_remote_filled] icon from the Tabler Icons set.
   static const IconData device_remote_filled = IconData(0x10046, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  /// The [device_screen] icon from the Tabler Icons set.
+  static const IconData device_screen = IconData(0x1022b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [device_sd_card] icon from the Tabler Icons set.
   static const IconData device_sd_card = IconData(0xf384, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [device_sim] icon from the Tabler Icons set.
@@ -6821,6 +6835,8 @@ class TablerIcons {
   static const IconData ice_cream_off = IconData(0xf148, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [ice_skating] icon from the Tabler Icons set.
   static const IconData ice_skating = IconData(0xefcb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [iceberg] icon from the Tabler Icons set.
+  static const IconData iceberg = IconData(0x1022a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [icons] icon from the Tabler Icons set.
   static const IconData icons = IconData(0xf1d4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [icons_filled] icon from the Tabler Icons set.
@@ -6965,6 +6981,8 @@ class TablerIcons {
   static const IconData jetpack = IconData(0xf581, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [jetpack_filled] icon from the Tabler Icons set.
   static const IconData jetpack_filled = IconData(0xfe29, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  /// The [jetski] icon from the Tabler Icons set.
+  static const IconData jetski = IconData(0x10229, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [jewish_star] icon from the Tabler Icons set.
   static const IconData jewish_star = IconData(0xf3ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [jewish_star_filled] icon from the Tabler Icons set.
@@ -8604,45 +8622,45 @@ class TablerIcons {
   /// The [number_34_small] icon from the Tabler Icons set.
   static const IconData number_34_small = IconData(0x10000, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_35_small] icon from the Tabler Icons set.
-  static const IconData number_35_small = IconData(0xffff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_35_small = IconData(0x10210, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_36_small] icon from the Tabler Icons set.
-  static const IconData number_36_small = IconData(0xfffe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_36_small = IconData(0x10211, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_37_small] icon from the Tabler Icons set.
-  static const IconData number_37_small = IconData(0xfffd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_37_small = IconData(0x10212, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_38_small] icon from the Tabler Icons set.
-  static const IconData number_38_small = IconData(0xfffc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_38_small = IconData(0x10213, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_39_small] icon from the Tabler Icons set.
-  static const IconData number_39_small = IconData(0xfffb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_39_small = IconData(0x10214, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_3_small] icon from the Tabler Icons set.
   static const IconData number_3_small = IconData(0xfcf8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_4] icon from the Tabler Icons set.
   static const IconData number_4 = IconData(0xedf4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_40_small] icon from the Tabler Icons set.
-  static const IconData number_40_small = IconData(0xfffa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_40_small = IconData(0x10215, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_41_small] icon from the Tabler Icons set.
-  static const IconData number_41_small = IconData(0xfff9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_41_small = IconData(0x10216, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_42_small] icon from the Tabler Icons set.
-  static const IconData number_42_small = IconData(0xfff8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_42_small = IconData(0x10217, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_43_small] icon from the Tabler Icons set.
-  static const IconData number_43_small = IconData(0xfff7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_43_small = IconData(0x10218, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_44_small] icon from the Tabler Icons set.
-  static const IconData number_44_small = IconData(0xfff6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_44_small = IconData(0x10219, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_45_small] icon from the Tabler Icons set.
-  static const IconData number_45_small = IconData(0xfff5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_45_small = IconData(0x1021a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_46_small] icon from the Tabler Icons set.
-  static const IconData number_46_small = IconData(0xfff4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_46_small = IconData(0x1021b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_47_small] icon from the Tabler Icons set.
-  static const IconData number_47_small = IconData(0xfff3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_47_small = IconData(0x1021c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_48_small] icon from the Tabler Icons set.
-  static const IconData number_48_small = IconData(0xfff2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_48_small = IconData(0x1021d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_49_small] icon from the Tabler Icons set.
-  static const IconData number_49_small = IconData(0xfff1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_49_small = IconData(0x1021e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_4_small] icon from the Tabler Icons set.
   static const IconData number_4_small = IconData(0xfcf9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_5] icon from the Tabler Icons set.
   static const IconData number_5 = IconData(0xedf5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_50_small] icon from the Tabler Icons set.
-  static const IconData number_50_small = IconData(0xfff0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData number_50_small = IconData(0x1021f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_51_small] icon from the Tabler Icons set.
   static const IconData number_51_small = IconData(0xffef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [number_52_small] icon from the Tabler Icons set.
@@ -8795,6 +8813,8 @@ class TablerIcons {
   static const IconData octahedron_plus = IconData(0xfaad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [old] icon from the Tabler Icons set.
   static const IconData old = IconData(0xeeb9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [olympic_torch] icon from the Tabler Icons set.
+  static const IconData olympic_torch = IconData(0x10228, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [olympics] icon from the Tabler Icons set.
   static const IconData olympics = IconData(0xeeba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [olympics_off] icon from the Tabler Icons set.
@@ -8879,6 +8899,8 @@ class TablerIcons {
   static const IconData parking_circle = IconData(0xfd5a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [parking_circle_filled] icon from the Tabler Icons set.
   static const IconData parking_circle_filled = IconData(0xfeca, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  /// The [parking_meter] icon from the Tabler Icons set.
+  static const IconData parking_meter = IconData(0x10227, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [parking_off] icon from the Tabler Icons set.
   static const IconData parking_off = IconData(0xf172, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [password] icon from the Tabler Icons set.
@@ -9187,6 +9209,8 @@ class TablerIcons {
   static const IconData pill_filled = IconData(0xff07, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   /// The [pill_off] icon from the Tabler Icons set.
   static const IconData pill_off = IconData(0xf178, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [pillow] icon from the Tabler Icons set.
+  static const IconData pillow = IconData(0x10226, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [pills] icon from the Tabler Icons set.
   static const IconData pills = IconData(0xef66, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [pin] icon from the Tabler Icons set.
@@ -9205,6 +9229,8 @@ class TablerIcons {
   static const IconData pinned_filled = IconData(0xf68e, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   /// The [pinned_off] icon from the Tabler Icons set.
   static const IconData pinned_off = IconData(0xed5f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [pipeline] icon from the Tabler Icons set.
+  static const IconData pipeline = IconData(0x10225, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [pizza] icon from the Tabler Icons set.
   static const IconData pizza = IconData(0xedbb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [pizza_filled] icon from the Tabler Icons set.
@@ -9557,6 +9583,8 @@ class TablerIcons {
   static const IconData quote_filled = IconData(0x1009c, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   /// The [quote_off] icon from the Tabler Icons set.
   static const IconData quote_off = IconData(0xf188, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [quote_open] icon from the Tabler Icons set.
+  static const IconData quote_open = IconData(0x10224, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [quotes] icon from the Tabler Icons set.
   static const IconData quotes = IconData(0xfb1e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [radar] icon from the Tabler Icons set.
@@ -9957,6 +9985,10 @@ class TablerIcons {
   static const IconData scan = IconData(0xebc8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [scan_eye] icon from the Tabler Icons set.
   static const IconData scan_eye = IconData(0xf1ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [scan_letter_a] icon from the Tabler Icons set.
+  static const IconData scan_letter_a = IconData(0x10223, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [scan_letter_t] icon from the Tabler Icons set.
+  static const IconData scan_letter_t = IconData(0x10222, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [scan_position] icon from the Tabler Icons set.
   static const IconData scan_position = IconData(0xfdac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [scan_traces] icon from the Tabler Icons set.
@@ -10037,6 +10069,8 @@ class TablerIcons {
   static const IconData seedling_filled = IconData(0x10006, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
   /// The [seedling_off] icon from the Tabler Icons set.
   static const IconData seedling_off = IconData(0xf19d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  /// The [segway] icon from the Tabler Icons set.
+  static const IconData segway = IconData(0x10221, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [select] icon from the Tabler Icons set.
   static const IconData select = IconData(0xec9e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [select_all] icon from the Tabler Icons set.
@@ -12149,6 +12183,8 @@ class TablerIcons {
   static const IconData x = IconData(0xeb55, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [x_filled] icon from the Tabler Icons set.
   static const IconData x_filled = IconData(0x101c6, fontFamily: _kFontFamFilled, fontPackage: _kFontPkg);
+  /// The [x_mark] icon from the Tabler Icons set.
+  static const IconData x_mark = IconData(0x10220, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [x_power_y] icon from the Tabler Icons set.
   static const IconData x_power_y = IconData(0x10072, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   /// The [xbox_a] icon from the Tabler Icons set.

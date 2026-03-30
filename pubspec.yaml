@@ -1,6 +1,6 @@
 name: flutter_pas_tabler_icons
 description: A Flutter package for Tabler Icons. Includes over 6000+ icons in both Outline and Filled variants, fully tree-shakeable.
-version: 3.40.0+1
+version: 3.41.1
 homepage: https://github.com/pasdeveloper/flutter_tabler_icons
 repository: https://github.com/pasdeveloper/flutter_tabler_icons
 issue_tracker: https://github.com/pasdeveloper/flutter_tabler_icons/issues

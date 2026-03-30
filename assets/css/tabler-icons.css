@@ -1,12 +1,12 @@
 /*!
- * Tabler Icons 3.40.0 by tabler - https://tabler.io
+ * Tabler Icons 3.41.1 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/master/LICENSE
  */
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.woff2?v3.40.0") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v3.40.0") format("truetype");
+  src: url("./fonts/tabler-icons.woff2?v3.41.1") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v3.41.1") format("truetype");
 }
 .ti {
   font-family: "tabler-icons" !important;
@@ -3181,6 +3181,10 @@
   content: "\ef0c";
 }
 
+.ti-brand-jira:before {
+  content: "\10231";
+}
+
 .ti-brand-juejin:before {
   content: "\f7b0";
 }
@@ -4683,6 +4687,14 @@
 
 .ti-car-off:before {
   content: "\f0c7";
+}
+
+.ti-car-off-road:before {
+  content: "\10230";
+}
+
+.ti-car-suspension:before {
+  content: "\1022f";
 }
 
 .ti-car-suv:before {
@@ -6725,6 +6737,10 @@
   content: "\ea84";
 }
 
+.ti-credit-card-hand:before {
+  content: "\1022e";
+}
+
 .ti-credit-card-off:before {
   content: "\ed11";
 }
@@ -7281,6 +7297,14 @@
   content: "\f3e2";
 }
 
+.ti-device-3d-camera:before {
+  content: "\1022d";
+}
+
+.ti-device-3d-lens:before {
+  content: "\1022c";
+}
+
 .ti-device-airpods:before {
   content: "\f5a9";
 }
@@ -7807,6 +7831,10 @@
 
 .ti-device-remote:before {
   content: "\f792";
+}
+
+.ti-device-screen:before {
+  content: "\1022b";
 }
 
 .ti-device-sd-card:before {
@@ -11057,6 +11085,10 @@
   content: "\efcb";
 }
 
+.ti-iceberg:before {
+  content: "\1022a";
+}
+
 .ti-icons:before {
   content: "\f1d4";
 }
@@ -11255,6 +11287,10 @@
 
 .ti-jetpack:before {
   content: "\f581";
+}
+
+.ti-jetski:before {
+  content: "\10229";
 }
 
 .ti-jewish-star:before {
@@ -14114,23 +14150,23 @@
 }
 
 .ti-number-35-small:before {
-  content: "\ffff";
+  content: "\10210";
 }
 
 .ti-number-36-small:before {
-  content: "\fffe";
+  content: "\10211";
 }
 
 .ti-number-37-small:before {
-  content: "\fffd";
+  content: "\10212";
 }
 
 .ti-number-38-small:before {
-  content: "\fffc";
+  content: "\10213";
 }
 
 .ti-number-39-small:before {
-  content: "\fffb";
+  content: "\10214";
 }
 
 .ti-number-4:before {
@@ -14142,43 +14178,43 @@
 }
 
 .ti-number-40-small:before {
-  content: "\fffa";
+  content: "\10215";
 }
 
 .ti-number-41-small:before {
-  content: "\fff9";
+  content: "\10216";
 }
 
 .ti-number-42-small:before {
-  content: "\fff8";
+  content: "\10217";
 }
 
 .ti-number-43-small:before {
-  content: "\fff7";
+  content: "\10218";
 }
 
 .ti-number-44-small:before {
-  content: "\fff6";
+  content: "\10219";
 }
 
 .ti-number-45-small:before {
-  content: "\fff5";
+  content: "\1021a";
 }
 
 .ti-number-46-small:before {
-  content: "\fff4";
+  content: "\1021b";
 }
 
 .ti-number-47-small:before {
-  content: "\fff3";
+  content: "\1021c";
 }
 
 .ti-number-48-small:before {
-  content: "\fff2";
+  content: "\1021d";
 }
 
 .ti-number-49-small:before {
-  content: "\fff1";
+  content: "\1021e";
 }
 
 .ti-number-5:before {
@@ -14190,7 +14226,7 @@
 }
 
 .ti-number-50-small:before {
-  content: "\fff0";
+  content: "\1021f";
 }
 
 .ti-number-51-small:before {
@@ -14477,6 +14513,10 @@
   content: "\eeb9";
 }
 
+.ti-olympic-torch:before {
+  content: "\10228";
+}
+
 .ti-olympics:before {
   content: "\eeba";
 }
@@ -14611,6 +14651,10 @@
 
 .ti-parking-circle:before {
   content: "\fd5a";
+}
+
+.ti-parking-meter:before {
+  content: "\10227";
 }
 
 .ti-parking-off:before {
@@ -15169,6 +15213,10 @@
   content: "\f178";
 }
 
+.ti-pillow:before {
+  content: "\10226";
+}
+
 .ti-pills:before {
   content: "\ef66";
 }
@@ -15195,6 +15243,10 @@
 
 .ti-pinned-off:before {
   content: "\ed5f";
+}
+
+.ti-pipeline:before {
+  content: "\10225";
 }
 
 .ti-pizza:before {
@@ -15739,6 +15791,10 @@
 
 .ti-quote-off:before {
   content: "\f188";
+}
+
+.ti-quote-open:before {
+  content: "\10224";
 }
 
 .ti-quotes:before {
@@ -16441,6 +16497,14 @@
   content: "\f1ff";
 }
 
+.ti-scan-letter-a:before {
+  content: "\10223";
+}
+
+.ti-scan-letter-t:before {
+  content: "\10222";
+}
+
 .ti-scan-position:before {
   content: "\fdac";
 }
@@ -16567,6 +16631,10 @@
 
 .ti-seedling-off:before {
   content: "\f19d";
+}
+
+.ti-segway:before {
+  content: "\10221";
 }
 
 .ti-select:before {
@@ -19935,6 +20003,10 @@
 
 .ti-x:before {
   content: "\eb55";
+}
+
+.ti-x-mark:before {
+  content: "\10220";
 }
 
 .ti-x-power-y:before {

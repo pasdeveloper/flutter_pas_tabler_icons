@@ -7,7 +7,7 @@ A Flutter package for [Tabler Icons](https://tabler.io/icons) — **always up to
 
 Unlike other Tabler icon packages for Flutter, **this library updates itself automatically** via a CI pipeline that checks for new Tabler releases weekly. No waiting for a maintainer to manually publish — when Tabler ships new icons, this package follows within days.
 
-Currently tracking **Tabler Icons v3.40.0** with **6131** icons, including both **Outline** and **Filled** variants. All icons are `static const`, making them fully tree-shakeable.
+Currently tracking **Tabler Icons v3.40.0** with **6149** icons, including both **Outline** and **Filled** variants. All icons are `static const`, making them fully tree-shakeable.
 
 ## Getting Started
 

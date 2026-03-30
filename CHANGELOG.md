@@ -1,3 +1,7 @@
+## 3.41.1
+
+Fixed icon: `outline/x-mark`
+
 ## 3.40.0
 
 ### 18 new icons:
