@@ -2,10 +2,6 @@
 
 Fixed icon: `outline/x-mark`
 
-## 3.41.1
-
-Fixed icon: `outline/x-mark`
-
 ## 3.40.0
 
 ### 18 new icons:
@@ -54,7 +50,8 @@ Fixed icons: `outline/api`, `outline/home-shield`
 - `outline/world-map`
 - `outline/zero-config`
 
-Fixed icons: `outline/api`, `outline/sort-ascending-2`, `outline/sort-descending-2`
+Fixed icons: `outline/api`, `outline/sort-ascending-2`,
+`outline/sort-descending-2`
 
 ## 3.38.0
 
@@ -112,6 +109,6 @@ Fixed icons: `filled/calendar-event`, `filled/trash`
 
 ## 3.36.0
 
-* Initial release with Tabler Icons v3.36.0.
-* Includes 5000+ icons in both Outline and Filled variants.
-* Fully tree-shakeable IconData.
+- Initial release with Tabler Icons v3.36.0.
+- Includes 5000+ icons in both Outline and Filled variants.
+- Fully tree-shakeable IconData.
